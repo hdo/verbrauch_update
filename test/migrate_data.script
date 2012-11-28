@@ -1,0 +1,117 @@
+sed -i 's/restart_counter/\"restart_counter\"/g' data2.log
+sed -i 's/build/\"build\"/g' data2.log
+sed -i 's/name/\"name\"/g' data2.log
+sed -i 's/version_major/\"version_major\"/g' data2.log
+sed -i 's/version_minor/\"version_minor\"/g' data2.log
+sed -i 's/sensors/\"sensors\"/g' data2.log
+sed -i 's/id/\"id\"/g' data2.log
+sed -i 's/enabled/\"enabled\"/g' data2.log
+sed -i 's/type/\"type\"/g' data2.log
+sed -i 's/EHZ/\"EHZ\"/g' data2.log
+sed -i 's/NONE/\"NONE\"/g' data2.log
+sed -i 's/S0/\"S0\"/g' data2.log
+sed -i 's/address/\"address\"/g' data2.log
+sed -i 's/value\ /\"value\"\ /g' data2.log
+sed -i 's/value2/\"value2\"/g' data2.log
+sed -i 's/WASSER\ \[10L\/Imp\]/\"WASSER\ \[10L\/Imp\]\"/g' data2.log
+sed -i 's/\ STROM\ /\ \"STROM\"\ /g' data2.log
+sed -i 's/20121111-221516/\"20121111-221516\"/g' data2.log
+sed -i 's/GAS\ \[0,01m^3\/Imp\]/\"GAS\ \[0,01m^3\/Imp\]\"/g' data2.log
+sed -i 's/WASSER\ GARTEN\ \[1L\/Imp\]/\"WASSER\ GARTEN\ \[1L\/Imp\]\"/g' data2.log
+sed -i 's/-,/\"-\",/g' data2.log
+sed -i 's/\};/\}/g' data2.log
+sed -i 's/\"\"/\"/g' data2.log
+sed -i 's/:\ 9,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 10,/: 0,/g' data2.log
+sed -i 's/:\ 32,/: 0,/g' data2.log
+sed -i 's/:\ 14,/: 0,/g' data2.log
+sed -i 's/:\ 58,/: 0,/g' data2.log
+sed -i 's/:\ 15,/: 0,/g' data2.log
+sed -i 's/:\ 58,/: 0,/g' data2.log
+sed -i 's/:\ 16,/: 0,/g' data2.log
+sed -i 's/:\ 58,/: 0,/g' data2.log
+sed -i 's/:\ 62,/: 0,/g' data2.log
+sed -i 's/:\ 81,/: 0,/g' data2.log
+sed -i 's/:\ 63,/: 0,/g' data2.log
+sed -i 's/:\ 81,/: 0,/g' data2.log
+sed -i 's/:\ 78,/: 0,/g' data2.log
+sed -i 's/:\ 89,/: 0,/g' data2.log
+sed -i 's/:\ 86,/: 0,/g' data2.log
+sed -i 's/:\ 101,/: 0,/g' data2.log
+sed -i 's/:\ 87,/: 0,/g' data2.log
+sed -i 's/:\ 101,/: 0,/g' data2.log
+sed -i 's/:\ 87,/: 0,/g' data2.log
+sed -i 's/:\ 124,/: 0,/g' data2.log
+sed -i 's/:\ 88,/: 0,/g' data2.log
+sed -i 's/:\ 124,/: 0,/g' data2.log
+sed -i 's/:\ 89,/: 0,/g' data2.log
+sed -i 's/:\ 124,/: 0,/g' data2.log
+sed -i 's/:\ 93,/: 0,/g' data2.log
+sed -i 's/:\ 126,/: 0,/g' data2.log
+sed -i 's/:\ 130,/: 0,/g' data2.log
+sed -i 's/:\ 144,/: 0,/g' data2.log
+sed -i 's/:\ 132,/: 0,/g' data2.log
+sed -i 's/:\ 144,/: 0,/g' data2.log
+sed -i 's/:\ 134,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 144,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 144,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 144,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 144,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 167,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 180,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 197,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 197,/: 0,/g' data2.log
+sed -i 's/:\ 145,/: 0,/g' data2.log
+sed -i 's/:\ 197,/: 0,/g' data2.log
+sed -i 's/:\ 186,/: 0,/g' data2.log
+sed -i 's/:\ 224,/: 0,/g' data2.log
+sed -i 's/:\ 188,/: 0,/g' data2.log
+sed -i 's/:\ 224,/: 0,/g' data2.log
+sed -i 's/:\ 193,/: 0,/g' data2.log
+sed -i 's/:\ 245,/: 0,/g' data2.log
+sed -i 's/:\ 194,/: 0,/g' data2.log
+sed -i 's/:\ 245,/: 0,/g' data2.log
+sed -i 's/:\ 195,/: 0,/g' data2.log
+sed -i 's/:\ 245,/: 0,/g' data2.log
+sed -i 's/:\ 196,/: 0,/g' data2.log
+sed -i 's/:\ 267,/: 0,/g' data2.log
+sed -i 's/:\ 197,/: 0,/g' data2.log
+sed -i 's/:\ 267,/: 0,/g' data2.log
+sed -i 's/:\ 197,/: 0,/g' data2.log
+sed -i 's/:\ 267,/: 0,/g' data2.log
+sed -i 's/:\ 198,/: 0,/g' data2.log
+sed -i 's/:\ 267,/: 0,/g' data2.log
+sed -i 's/:\ 209,/: 0,/g' data2.log
+sed -i 's/:\ 291,/: 0,/g' data2.log
+sed -i 's/:\ 209,/: 0,/g' data2.log
+sed -i 's/:\ 291,/: 0,/g' data2.log
+sed -i 's/:\ 244,/: 0,/g' data2.log
+sed -i 's/:\ 304,/: 0,/g' data2.log

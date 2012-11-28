@@ -1,0 +1,13 @@
+restart_counter 
+version_major 
+version_minor 
+sensors 
+id 
+enabled
+type
+EHZ
+NONE
+S0 
+address
+value 
+value2
