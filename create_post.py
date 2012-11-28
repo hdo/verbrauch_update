@@ -12,15 +12,21 @@ class create_post:
       self.config.read('config.ini')
       if not self.config.has_section('main') or not self.config.has_option('main','output'):
          return False
+      if not self.config.has_option('main','logdir'):
+         return False
       p = self.config.get('main', 'output')
       if not os.path.exists(p):
          os.makedirs(p)
       self.output_dir = p
+      p = self.config.get('main','logdir')
+      if not os.path.exists(p):
+         return False
+      self.logdir = p
       return True
 
    def getLogFile(self):
       year = datetime.now().year
-      return "%d.log" % year
+      return os.path.join(self.logdir, "%d.log" % year)
 
    def writeData(self, f, data):
       f_d = open(f,'w')
