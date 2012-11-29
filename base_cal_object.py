@@ -1,13 +1,14 @@
 from datetime import datetime
 
 class base_cal_object:
-
+   
    def diff_datetime(self, d1, d2):
       if d1 >= d2:
          diff = d1 - d2
       else:
          diff = d2 - d1
-      return diff.total_seconds()
+      total_seconds = diff.days * 86400 + diff.seconds
+      return total_seconds
       
    def init_datetimes(self):
       raise NotImplementedError( "AbstractBaseClass!" )
